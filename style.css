@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    color: black;
+    border: 3px black solid;
+    font-size: 25px;
+    box-shadow: 7px 7px 10px grey;
+    transition:  all 3s;
+}
+button:hover{
+    cursor: crosshair;
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: 7px 7px 10px grey;
+}
